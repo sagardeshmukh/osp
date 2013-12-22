@@ -6,10 +6,10 @@ default:
     content-type: text/html
 
   metas:
-    title:        Yozoa - Sell, Sold!
-    description:  One of the biggest Norwayne e-Commerce web site.
-    keywords:     e-Commerce, product, sell, bye, car, real estate, construction, sedan, electronics, computer, online shop, e shopping, internet marketing, advertisement, rent.
-    language:     no
+    title:        OneStepProperty
+    description:  India's best property selling site
+    keywords:     real estate, construction, advertisement, rent.
+    language:     en
     robots:       index, follow
 
   stylesheets:    [base.css, framework.css, main.css?rand=12345, shop.css]

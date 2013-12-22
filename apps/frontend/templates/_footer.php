@@ -62,7 +62,7 @@
 
 		</div> 
 
-		<div class="clear" style="text-align:center" >&copy; 2011 Yozoa Inc. All Rights Reserved.
+		<div class="clear" style="text-align:center" >&copy; 2013 OneStepProperty Inc. All Rights Reserved.
 
 			<a href="<?php echo url_for('@answer?id=29') ?>"><?php echo __('Terms') ?></a>
 
