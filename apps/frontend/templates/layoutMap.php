@@ -5,7 +5,7 @@
 <?php include_http_metas() ?>
 <?php include_metas() ?>
 <?php include_partial('global/head') ?>
-<?php //echo content_tag('title', "Yozoa.no - " . $title)."\n"; ?>
+<?php //echo content_tag('title', "OneStepProperty.com - " . $title)."\n"; ?>
 <!--<link rel="shortcut icon" href="/images/favicon.ico" />-->
 <link rel="stylesheet" type="text/css" media="screen" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" media="screen" href="/css/autocomplete.css" />
