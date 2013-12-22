@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Yozoa - Sell, Sold!
+    description:  One of the biggest Norwayne e-Commerce web site.
+    keywords:     e-Commerce, product, sell, bye, car, real estate, construction, sedan, electronics, computer, online shop, e shopping, internet marketing, advertisement, rent.
+    language:     no
+    robots:       index, follow
+
+  stylesheets:    [base.css, framework.css, main.css?rand=12345, shop.css]
+
+  javascripts:    [jquery-1.3.2.min.js, global.js]
+
+  has_layout:     true
+  layout:         layout

@@ -1,0 +1,271 @@
+.asr-md span {
+    left: -1000px;
+    position: absolute;
+    top: -1000px;
+}
+.ui-widget-overlay {
+background-color: #FFFFFF;
+opacity: 0.3;
+cursor: wait;
+left: 0;
+position: absolute;
+top: 0;
+z-index: 30;
+}
+.asf-h .title {
+    color: #5D5D5D;
+    font-family: "trebuchet MS";
+    font-size: 18px;
+    padding: 0 0 0 5px;
+    background: none;
+}
+.asf-f tr.dynamic td.options {
+    padding-left: 15px;
+    vertical-align: top;
+    width: 125px;
+}
+.asf-f div.options {
+    height: 325px;
+    position: relative;
+}
+.asf-f div.options .scroll {
+    height: 305px;
+    overflow: hidden;
+    position: relative;
+}
+.asf-f div.others .other-v {
+    background-color: #FFFFFF;
+    padding: 5px;
+    visibility: visible;
+}
+div.others div.other-v a {
+    color: #002398;
+}
+.asf-f tr.dynamic td.frame {
+    border: 1px solid #CCCCCC;
+    vertical-align: top;
+}
+.asf-f div.frame {
+    background: url("/images/imgTopShadow.gif") repeat-x scroll center top transparent;
+}
+.asf-f div.frame {
+    height: 323px;
+    overflow: auto;
+    position: relative;
+}
+.asf-c table.asf-c td.asf-c {
+    padding: 2px;
+    position: relative;
+    vertical-align: top;
+    width: 50%;
+}
+.asf-c input.radio {
+    float: left;
+    padding: 2px 0;
+    margin: 2px 2px 0;
+}
+.asf-c div.label {
+    border: 1px solid #FFFFFF;
+    line-height: 19px;
+    margin: 2px 20px 20px 20px;   /* margin: 2px 2px 0; */
+}
+.asf-c span.cnt {
+    color: #666666;
+    font-family: Verdana;
+    font-size: x-small;
+    font-weight: normal;
+}
+.asf-f div.frame {
+    height: 323px;
+    overflow: auto;
+    position: relative;
+}
+.asf-f div.others a {
+    color: #0000CC;
+    font-weight: normal;
+}
+.asf-f div.others a.selected {
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+.asf-f td.controls div.controls {
+    padding: 10px 0 0;
+}
+.asf-f td.controls div.controls a {
+    margin-right: 15px;
+}
+.asf-f td.controls div.controls input {
+    width: 60px;
+}
+.asf-f tr.controls td.controls {
+    text-align: right;
+}
+.bn-w, .bn-b, .bn-b input, .bn-b b, .bn-b a {
+    background: url("/images/sprButtons.png") no-repeat scroll -450px 0 transparent;
+    display: inline-block;
+    font: bold small Trebuchet,"Trebuchet MS" !important;
+    outline: medium none;
+}
+.bn-b input, .bn-b b, .bn-b a {
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font: bold 1.154em Trebuchet,"Trebuchet MS" !important;
+    margin: 0 -3px;
+    padding: 1px 11px 4px;
+    white-space: nowrap;
+}
+.bn-b {
+    padding: 0 3px 0 0;
+    vertical-align: middle;
+    z-index: 2;
+}
+.bn-w {
+    padding-left: 3px;
+}
+.bn-pad {
+    padding: 0 8px 0 11px;
+}
+.bn-m {
+    margin: 8px 0;
+}
+.bn-w, .bn-b, .bn-b b, .bn-b a {
+    position: relative !important;
+}
+.bn-h, .bn-b b {
+    display: none;
+}
+.psb-S b, .psb-S a {
+    line-height: 18px !important;
+    padding: 3px 9px 3px 10px;
+}
+.psb-S, .psb-S input {
+    height: 24px;
+}
+.psb-S input {
+    padding: 1px 6px 4px 7px;
+}
+.psb-b {
+    background-position: 100% -378px;
+}
+.psb-S input, .psb-S a {
+    background-position: 0 -344px;
+    font-size: 1em !important;
+}
+.ov-cl, a.ov-cl:hover {
+    background: url("/images/iconClose.png") no-repeat scroll 0 100% transparent;
+    height: 12px;
+    margin: -7px -12px 10px 10px;
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+    top: 17px;
+    width: 12px;
+}
+.bn-w i {
+    background: none repeat scroll 0 0 #3C58C5;
+    border: 2px outset;
+    color: #3C58C5;
+    font: bold 1.077em Trebuchet,"Trebuchet MS" !important;
+    margin: 2px 0;
+    padding: 3px 6px;
+    position: absolute;
+    white-space: nowrap;
+}
+.psb-S i {
+    font-size: 0.923em !important;
+    padding: 0 2px;
+}
+.ov-c1, .ov-c2 {
+    background: none repeat-y scroll 0 0 transparent;
+    float: left;
+}
+.ov-fl {
+    float: left;
+}
+html, div, map, dt, isindex, form {
+    display: block;
+}
+.ov-c2 {
+    background: url("/images/sprOverlayRtLg.png") repeat-y scroll 100% 0 transparent;
+    border-left: 1px solid #CCCCCC;
+    float: left;
+}
+.ov-p20 {
+    padding: 17px 20px;
+}
+.asf-b form.asf-f {
+    padding: 0 10px;
+    position: relative;
+}
+.asf-b table.asf-f {
+    position: relative;
+    width: 615px;
+}
+.ov-cnt {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: inline;
+    float: left;
+    margin: -27px 19px -6px 0;
+    position: relative;
+}
+.ov-p20 .ov-s {
+    padding-bottom: 10px;
+}
+.asf-b {
+    position: relative;
+}
+.ov-p20 {
+    padding: 17px 20px;
+}
+.asf-f div.asf-m {
+    display: none;
+    margin: 10px 15px;
+    position: relative;
+}
+.asf-f div.frame {
+    background: url("/images/imgTopShadow.gif") repeat-x scroll center top transparent;
+}
+.asf-f div.frame {
+    height: 323px;
+    overflow: auto;
+    position: relative;
+}
+.ov-cnt {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: inline;
+    float: left;
+    margin: -27px 19px -6px 0;
+    position: relative;
+}
+.ov-fl u {
+    clear: both;
+    display: block;
+}
+.ov-t b, .ov-b b {
+    background: none no-repeat scroll 100% -70px transparent;
+    display: block;
+    margin-left: 28px;
+}
+.ov-b b {
+    background: none no-repeat scroll 100% -108px transparent;
+}
+.ov-b {
+    background: none no-repeat scroll 0 -33px transparent;
+}
+.ov-t i, .ov-b i {
+    background: none repeat-x scroll 0 -150px transparent;
+    display: block;
+    margin-right: 28px;
+    padding-top: 28px;
+}
+.ov-b i {
+    background: none repeat-x scroll 0 -175px transparent;
+}
+.ov-t {
+    background: none no-repeat scroll 0 0 transparent;
+}
+.ov-t, .ov-t b, .ov-t i, .ov-b, .ov-b b, .ov-b i {
+    background-image: url("/images/sprOverlayVertLg.png");
+}

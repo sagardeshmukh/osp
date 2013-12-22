@@ -1,0 +1,1 @@
+<?php include_partial('browse', array('category' => $category, 'pager' => $pager, 'sortType' => $sortType, 'xType' => $xType, 'viewType' => $viewType, 'query_string_array' => $query_string_array)) ?>

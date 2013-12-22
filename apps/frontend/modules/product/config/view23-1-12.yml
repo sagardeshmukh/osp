@@ -1,0 +1,23 @@
+## YAML Template.
+showSuccess:
+  stylesheets:    [colorbox.css]
+  javascripts:    [jquery.colorbox.js]
+  
+searchSuccess:
+  javascripts:    [jquery.highlight-1.1.js]
+
+indexSuccess:
+  stylesheets:    [jquery.jcarousel.css,skins.css,store-skins.css]
+  javascripts:    [jquery.jcarousel.pack.js]
+
+albumSuccess:
+  stylesheets:    [flick/jquery-ui-1.7.2.custom.css,imageviewer/jquery.ad-gallery.css,imageviewer/jquery.ad-gallery-lightbox.css]
+  javascripts:    [ui/ui.core.min.js,ui/ui.dialog.min.js,ui/ui.draggable.min.js,imageviewer/jquery.ad-gallery.js]
+  
+displayFullScreenImageSuccess:
+  stylesheets:    [imageviewer/jquery.ad-gallery.css]
+  javascripts:    [imageviewer/jquery.ad-gallery.js]
+  
+browseSuccess:
+  stylesheets:    [choose.css]
+  javascripts:    [ui/ui.core.min.js,ui/ui.dialog.min.js,YozoaBrowse.js]

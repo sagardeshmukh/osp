@@ -1,0 +1,13 @@
+## YAML Template.
+_homeItem:
+  enabled:     true
+_featuredItem:
+  enabled:     true
+_listItem:
+  enabled:     true
+_gridItem:
+  enabled:     true
+_show:
+  enabled:     true
+all:
+  lifetime:    864000

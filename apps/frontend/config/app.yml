@@ -1,0 +1,101 @@
+# default values
+all:
+  max_page_one      : 3
+  product:
+    tmp_upload_dir  : /uploads/tmp_images/
+    upload_dir      : /uploads/product-image-%s/
+    
+### GUESTBOOK ###
+  guestbook:
+    max_page          : 2
+
+### DISCOUNT CONSTANT ###
+  remember:
+    cookie_name: biznetwork_remember
+    expiration_age: 2592000
+  csrf:
+    secret: noth1ng_
+    
+### PAGER ###
+  max:
+    per_page: 10
+    per_page_comment: 30
+    per_side: 6
+    per_message: 25
+    per_message_vip: 100
+    per_message_free: 25
+    per_message_support: 100
+    per_message_premium: 200    
+    tweet_per_page: 20
+    editable_trend_per_page: 30
+# userlimit
+    product: 8
+    product_support: 16
+    product_business: 24
+
+### SERVICE ###
+  serviceLimit:
+    oneDayFreeUser: 7   
+    
+### BANNER ###
+  banner:
+    h_wide:    10000
+    h_box:     8000
+    other_box: 5000
+    
+### MEMBERSHIP ###
+  memberShipCash:
+    biznes:    29900
+    support:   9900
+    
+### COMPANY ###
+  company:
+    oneyear:   99000
+    
+### TOPIC ###
+  topic:
+    sender: topic@biznetwork.mn
+    positive_rate: 5
+    negative_rate: -10
+    threshold: -5
+    update_frequency: 30
+    activity_max_per_page: 10
+    
+### POSITION ###
+  position:
+    business_owner: 1
+    independent_business: 2
+    looking_for_job: 3
+    student: 4
+    
+### DICTIONARY ###
+  dictionary:
+    path: /home/bayar/biznetwork-data/dictionary/women/
+    
+### MAIL ###
+  mail:
+    sender_email: welcome@tsegcom.net
+    sender_name: Welcome to BizNetwork
+    from_email: welcome@tsegcom.net
+    from_name: Welcome to BizNetwork
+    
+### STORE ###
+  weather:
+    partner: 1039925757
+    licence: 709b14c526eae8ee
+    
+### CONSUMER ###
+  consumer:
+    key: OqFsp8H44vmJiEzWQduiSg
+    secret: O2b8JlxEtfYurMiZk4yrd4S2fVJuPu5RjmrMwFC8s
+
+### STORE ###
+  store:
+    baseDomain:      bizmarket.mn
+    smallNbProducts: 30
+    smallNbAdmins:   1
+    bigNbProducts:   60
+    bigNbAdmins:     3
+    superNbProducts: 100
+    superNbAdmins:   5
+    per_page:        10

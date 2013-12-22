@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2011-01-11T05:58:05Z" product-name="messages">
+    <header/>
+    <body>
+    
+<trans-unit id="1">
+<source>About us</source>
+<target>About us</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>Contact us</source>
+<target>Contact us</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>Open yozoa</source>
+<target>Open yozoa</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>Customer comment</source>
+<target>Customer comment</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>Membership</source>
+<target>Membership</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>Latest products</source>
+<target>Latest products</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>Products on sale</source>
+<target>Products on sale</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>Urgent</source>
+<target>Urgent</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>Working with us</source>
+<target>Working with us</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>Register</source>
+<target>Register</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>Add product</source>
+<target>Add product</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>Leave a comment</source>
+<target>Leave a comment</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>Connect website</source>
+<target>Connect website</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>Business</source>
+<target>Business</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>Advertisement</source>
+<target>Advertisement</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>Partner</source>
+<target>Partner</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>Terms</source>
+<target>Terms</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>Privacy policy</source>
+<target>Privacy policy</target>
+</trans-unit>
+
+<trans-unit id="19">
+<source>Login</source>
+<target>Login</target>
+</trans-unit>
+
+<trans-unit id="20">
+<source>Info</source>
+<target>Info</target>
+</trans-unit>
+
+<trans-unit id="21">
+<source>Help</source>
+<target>Help</target>
+</trans-unit>
+
+<trans-unit id="22">
+<source>All categories</source>
+<target>All categories</target>
+</trans-unit>
+
+<trans-unit id="23">
+<source>Products</source>
+<target>Products</target>
+</trans-unit>
+
+<trans-unit id="24">
+<source>Automobiles</source>
+<target>Automobiles</target>
+</trans-unit>
+
+<trans-unit id="25">
+<source>Real estate</source>
+<target>Real estate</target>
+</trans-unit>
+
+<trans-unit id="26">
+<source>Recommended for you</source>
+<target>Recommended for you</target>
+</trans-unit>
+
+<trans-unit id="27">
+<source>E-Commerce</source>
+<target>E-Commerce</target>
+</trans-unit>
+
+<trans-unit id="28">
+<source>All products</source>
+<target>All products</target>
+</trans-unit>
+
+<trans-unit id="29">
+<source>All automobiles</source>
+<target>All automobiles</target>
+</trans-unit>
+
+<trans-unit id="30">
+<source>All real estates</source>
+<target>All real estates</target>
+</trans-unit>
+
+<trans-unit id="31">
+<source>Real Estate</source>
+<target>Real Estate</target>
+</trans-unit>
+
+<trans-unit id="32">
+<source>Cars</source>
+<target>Cars</target>
+</trans-unit>
+
+<trans-unit id="33">
+<source>Online help</source>
+<target>Online help</target>
+</trans-unit>
+
+<trans-unit id="34">
+<source>Categories</source>
+<target>Categories</target>
+</trans-unit>
+
+<trans-unit id="35">
+<source>+ Add product</source>
+<target>+ Add product</target>
+</trans-unit>
+
+<trans-unit id="36">
+<source> + Add product</source>
+<target> + Add product</target>
+</trans-unit>
+
+<trans-unit id="37">
+<source>New</source>
+<target>New</target>
+</trans-unit>
+
+<trans-unit id="38">
+<source>24 hour</source>
+<target>24 hour</target>
+</trans-unit>
+
+<trans-unit id="39">
+<source>3 days</source>
+<target>3 days</target>
+</trans-unit>
+
+<trans-unit id="40">
+<source>Buy now</source>
+<target>Buy now</target>
+</trans-unit>
+
+<trans-unit id="41">
+<source>Paid</source>
+<target>Paid</target>
+</trans-unit>
+
+<trans-unit id="42">
+<source>Sale</source>
+<target>Sale</target>
+</trans-unit>
+
+<trans-unit id="43">
+<source>Top 100 products</source>
+<target>Top 100 products</target>
+</trans-unit>
+
+<trans-unit id="44">
+<source>Homepage products</source>
+<target>Homepage products</target>
+</trans-unit>
+
+<trans-unit id="45">
+<source>Category</source>
+<target>Category</target>
+</trans-unit>
+
+<trans-unit id="46">
+<source>More</source>
+<target>More</target>
+</trans-unit>
+
+<trans-unit id="47">
+<source>Keyword</source>
+<target>Keyword</target>
+</trans-unit>
+
+<trans-unit id="48">
+<source>Other</source>
+<target>Other</target>
+</trans-unit>
+
+<trans-unit id="49">
+<source>Total</source>
+<target>Total</target>
+</trans-unit>
+
+<trans-unit id="50">
+<source>Sort</source>
+<target>Sort</target>
+</trans-unit>
+
+<trans-unit id="51">
+<source>View</source>
+<target>View</target>
+</trans-unit>
+
+<trans-unit id="52">
+<source>Answers, Questions</source>
+<target>Answers, Questions</target>
+</trans-unit>
+
+<trans-unit id="53">
+<source>Time left</source>
+<target>Time left</target>
+</trans-unit>
+
+<trans-unit id="54">
+<source>Seller</source>
+<target>Seller</target>
+</trans-unit>
+
+<trans-unit id="55">
+<source>New Questions and Answers</source>
+<target>New Questions and Answers</target>
+</trans-unit>
+
+<trans-unit id="56">
+<source>Last</source>
+<target>Last</target>
+</trans-unit>
+
+<trans-unit id="57">
+<source>3 хоног</source>
+<target>3 хоног</target>
+</trans-unit>
+
+<trans-unit id="58">
+<source>New construction projects</source>
+<target>New construction projects</target>
+</trans-unit>
+
+<trans-unit id="59">
+<source>Phone</source>
+<target>Phone</target>
+</trans-unit>
+
+<trans-unit id="60">
+<source>Send a message</source>
+<target>Send a message</target>
+</trans-unit>
+
+<trans-unit id="61">
+<source>Other products</source>
+<target>Other products</target>
+</trans-unit>
+
+<trans-unit id="62">
+<source>Same products</source>
+<target>Same products</target>
+</trans-unit>
+
+<trans-unit id="63">
+<source>Price</source>
+<target>Price</target>
+</trans-unit>
+
+<trans-unit id="64">
+<source>From who</source>
+<target>From who</target>
+</trans-unit>
+
+<trans-unit id="65">
+<source>Status</source>
+<target>Status</target>
+</trans-unit>
+
+<trans-unit id="66">
+<source>Available status</source>
+<target>Available status</target>
+</trans-unit>
+
+<trans-unit id="67">
+<source>Delivery</source>
+<target>Delivery</target>
+</trans-unit>
+
+<trans-unit id="68">
+<source>Ask a question</source>
+<target>Ask a question</target>
+</trans-unit>
+
+<trans-unit id="69">
+<source>Print</source>
+<target>Print</target>
+</trans-unit>
+
+<trans-unit id="70">
+<source>Send friends</source>
+<target>Send friends</target>
+</trans-unit>
+
+<trans-unit id="71">
+<source>Description</source>
+<target>Description</target>
+</trans-unit>
+
+<trans-unit id="72">
+<source>Additional information</source>
+<target>Additional information</target>
+</trans-unit>
+
+<trans-unit id="73">
+<source>Join</source>
+<target>Join</target>
+</trans-unit>
+
+<trans-unit id="74">
+<source>My Products</source>
+<target>My Products</target>
+</trans-unit>
+
+<trans-unit id="75">
+<source>Logout</source>
+<target>Logout</target>
+</trans-unit>
+
+<trans-unit id="76">
+<source>Error has occurred</source>
+<target>Error has occurred</target>
+</trans-unit>
+
+<trans-unit id="77">
+<source>minut ago</source>
+<target>minut ago</target>
+</trans-unit>
+
+<trans-unit id="78">
+<source>hour</source>
+<target>hour</target>
+</trans-unit>
+
+<trans-unit id="79">
+<source>minuts ago</source>
+<target>minuts ago</target>
+</trans-unit>
+
+<trans-unit id="80">
+<source>hours ago</source>
+<target>hours ago</target>
+</trans-unit>
+
+<trans-unit id="81">
+<source>page</source>
+<target>page</target>
+</trans-unit>
+
+<trans-unit id="82">
+<source>results</source>
+<target>results</target>
+</trans-unit>
+
+<trans-unit id="83">
+<source>First</source>
+<target>First</target>
+</trans-unit>
+
+<trans-unit id="84">
+<source>First page</source>
+<target>First page</target>
+</trans-unit>
+
+<trans-unit id="85">
+<source>Last page</source>
+<target>Last page</target>
+</trans-unit>
+
+<trans-unit id="86">
+<source>sale</source>
+<target>sale</target>
+</trans-unit>
+
+<trans-unit id="87">
+<source>homepage</source>
+<target>homepage</target>
+</trans-unit>
+
+<trans-unit id="88">
+<source>subpage</source>
+<target>subpage</target>
+</trans-unit>
+
+<trans-unit id="89">
+<source>toplist</source>
+<target>toplist</target>
+</trans-unit>
+
+<trans-unit id="90">
+<source>topsearch</source>
+<target>topsearch</target>
+</trans-unit>
+
+<trans-unit id="91">
+<source>different</source>
+<target>different</target>
+</trans-unit>
+
+<trans-unit id="92">
+<source>urgent</source>
+<target>urgent</target>
+</trans-unit>
+
+<trans-unit id="93">
+<source>Jobs</source>
+<target>Jobs</target>
+</trans-unit>
+
+<trans-unit id="94">
+<source>Rental</source>
+<target>Rental</target>
+</trans-unit>
+
+<trans-unit id="95">
+<source>All rents</source>
+<target>All rents</target>
+</trans-unit>
+
+<trans-unit id="96">
+<source>Vehicle</source>
+<target>Vehicle</target>
+</trans-unit>
+
+<trans-unit id="97">
+<source>All Vehicle</source>
+<target>All Vehicle</target>
+</trans-unit>
+
+<trans-unit id="98">
+<source>Used and New</source>
+<target>Used and New</target>
+</trans-unit>
+
+<trans-unit id="99">
+<source>All used and new</source>
+<target>All used and new</target>
+</trans-unit>
+
+<trans-unit id="100">
+<source>Service</source>
+<target>Service</target>
+</trans-unit>
+
+<trans-unit id="101">
+<source>All services</source>
+<target>All services</target>
+</trans-unit>
+
+<trans-unit id="102">
+<source>Your product has been expired.</source>
+<target>Your product has been expired.</target>
+</trans-unit>
+
+<trans-unit id="103">
+<source>Your inserted product in Yozoa.com.</source>
+<target>Your inserted product in Yozoa.com.</target>
+</trans-unit>
+
+<trans-unit id="104">
+<source>Customer comments</source>
+<target>Customer comments</target>
+</trans-unit>
+
+<trans-unit id="105">
+<source>Send</source>
+<target>Send</target>
+</trans-unit>
+
+<trans-unit id="106">
+<source>Cancel</source>
+<target>Cancel</target>
+</trans-unit>
+
+<trans-unit id="107">
+<source>Comment board</source>
+<target>Comment board</target>
+</trans-unit>
+
+<trans-unit id="108">
+<source>Continue</source>
+<target>Continue</target>
+</trans-unit>
+
+<trans-unit id="109">
+<source>Common questions</source>
+<target>Common questions</target>
+</trans-unit>
+
+<trans-unit id="110">
+<source>Related Questions</source>
+<target>Related Questions</target>
+</trans-unit>
+
+<trans-unit id="111">
+<source>Online </source>
+<target>Online </target>
+</trans-unit>
+
+<trans-unit id="112">
+<source>Do you want to read click</source>
+<target>Do you want to read click</target>
+</trans-unit>
+
+<trans-unit id="113">
+<source>here</source>
+<target>here</target>
+</trans-unit>
+
+<trans-unit id="114">
+<source>Good luck</source>
+<target>Good luck</target>
+</trans-unit>
+
+<trans-unit id="115">
+<source> Products</source>
+<target> Products</target>
+</trans-unit>
+
+<trans-unit id="116">
+<source> Code</source>
+<target> Code</target>
+</trans-unit>
+
+<trans-unit id="117">
+<source>Add new product</source>
+<target>Add new product</target>
+</trans-unit>
+
+<trans-unit id="118">
+<source>Search product</source>
+<target>Search product</target>
+</trans-unit>
+
+<trans-unit id="119">
+<source>Search automobiles</source>
+<target>Search automobiles</target>
+</trans-unit>
+
+<trans-unit id="120">
+<source>Search real estates</source>
+<target>Search real estates</target>
+</trans-unit>
+
+<trans-unit id="121">
+<source>named product you have inserted has been put in yozoa.com for</source>
+<target>named product you have inserted has been put in yozoa.com for</target>
+</trans-unit>
+
+<trans-unit id="122">
+<source>days left</source>
+<target>days left</target>
+</trans-unit>
+
+<trans-unit id="123">
+<source>Recently openned</source>
+<target>Recently openned</target>
+</trans-unit>
+
+<trans-unit id="124">
+<source>times</source>
+<target>times</target>
+</trans-unit>
+
+<trans-unit id="125">
+<source>Link</source>
+<target>Link</target>
+</trans-unit>
+
+<trans-unit id="126">
+<source>What will we do now</source>
+<target>What will we do now</target>
+</trans-unit>
+
+<trans-unit id="127">
+<source>You can</source>
+<target>You can</target>
+</trans-unit>
+
+<trans-unit id="128">
+<source>extend</source>
+<target>extend</target>
+</trans-unit>
+
+<trans-unit id="129">
+<source>share</source>
+<target>share</target>
+</trans-unit>
+
+<trans-unit id="130">
+<source>advertise</source>
+<target>advertise</target>
+</trans-unit>
+
+<trans-unit id="131">
+<source>If it sold, you can</source>
+<target>If it sold, you can</target>
+</trans-unit>
+
+<trans-unit id="132">
+<source>delete</source>
+<target>delete</target>
+</trans-unit>
+
+<trans-unit id="133">
+<source>You can add new product</source>
+<target>You can add new product</target>
+</trans-unit>
+
+<trans-unit id="134">
+<source>insert</source>
+<target>insert</target>
+</trans-unit>
+
+<trans-unit id="135">
+<source>Error has occurred in server, please inform system administrator.</source>
+<target>Error has occurred in server, please inform system administrator.</target>
+</trans-unit>
+
+<trans-unit id="136">
+<source>Error has occurred, choose different file .</source>
+<target>Error has occurred, choose different file .</target>
+</trans-unit>
+
+<trans-unit id="137">
+<source>Error has occurred during converting your image.</source>
+<target>Error has occurred during converting your image.</target>
+</trans-unit>
+
+<trans-unit id="138">
+<source>Error has occurred while sending file</source>
+<target>Error has occurred while sending file</target>
+</trans-unit>
+
+<trans-unit id="139">
+<source>Only allowed (png, jpg, gif) file formats.</source>
+<target>Only allowed (png, jpg, gif) file formats.</target>
+</trans-unit>
+
+<trans-unit id="140">
+<source>Error has occurred while converting image.</source>
+<target>Error has occurred while converting image.</target>
+</trans-unit>
+
+<trans-unit id="141">
+<source>next</source>
+<target>next</target>
+</trans-unit>
+
+<trans-unit id="142">
+<source>Expired</source>
+<target>Expired</target>
+</trans-unit>
+
+<trans-unit id="143">
+<source>Denied</source>
+<target>Denied</target>
+</trans-unit>
+
+<trans-unit id="144">
+<source>Pending</source>
+<target>Pending</target>
+</trans-unit>
+
+<trans-unit id="145">
+<source>Active</source>
+<target>Active</target>
+</trans-unit>
+
+<trans-unit id="146">
+<source>You have no product.</source>
+<target>You have no product.</target>
+</trans-unit>
+
+<trans-unit id="147">
+<source>Extend</source>
+<target>Extend</target>
+</trans-unit>
+
+<trans-unit id="148">
+<source>Successfully extended</source>
+<target>Successfully extended</target>
+</trans-unit>
+
+<trans-unit id="149">
+<source>Select category</source>
+<target>Select category</target>
+</trans-unit>
+
+<trans-unit id="150">
+<source>Main information</source>
+<target>Main information</target>
+</trans-unit>
+
+<trans-unit id="151">
+<source>Edit</source>
+<target>Edit</target>
+</trans-unit>
+
+<trans-unit id="152">
+<source>Employer information</source>
+<target>Employer information</target>
+</trans-unit>
+
+<trans-unit id="153">
+<source>Contact information</source>
+<target>Contact information</target>
+</trans-unit>
+
+<trans-unit id="154">
+<source>Map</source>
+<target>Map</target>
+</trans-unit>
+
+<trans-unit id="155">
+<source>Contact</source>
+<target>Contact</target>
+</trans-unit>
+
+<trans-unit id="156">
+<source>Rental agreement, Location</source>
+<target>Rental agreement, Location</target>
+</trans-unit>
+
+<trans-unit id="157">
+<source>Add a new Agreement Contract</source>
+<target>Add a new Agreement Contract</target>
+</trans-unit>
+
+<trans-unit id="158">
+<source>Service information</source>
+<target>Service information</target>
+</trans-unit>
+
+<trans-unit id="159">
+<source>Who is the contact?</source>
+<target>Who is the contact?</target>
+</trans-unit>
+
+<trans-unit id="160">
+<source>Insert image</source>
+<target>Insert image</target>
+</trans-unit>
+
+<trans-unit id="161">
+<source>Back</source>
+<target>Back</target>
+</trans-unit>
+
+<trans-unit id="162">
+<source>Warning</source>
+<target>Warning</target>
+</trans-unit>
+
+<trans-unit id="163">
+<source>Search</source>
+<target>Search</target>
+</trans-unit>
+
+<trans-unit id="164">
+<source>Return</source>
+<target>Return</target>
+</trans-unit>
+
+<trans-unit id="165">
+<source>Finish</source>
+<target>Finish</target>
+</trans-unit>
+
+<trans-unit id="166">
+<source>Your product</source>
+<target>Your product</target>
+</trans-unit>
+
+<trans-unit id="167">
+<source>Your product added successfully.</source>
+<target>Your product added successfully.</target>
+</trans-unit>
+
+<trans-unit id="168">
+<source>Our operators check your product within &lt;b&gt;4 work hours&lt;/b&gt; and make it active. So we will inform you by email.</source>
+<target>Our operators check your product within &lt;b&gt;4 work hours&lt;/b&gt; and make it active. So we will inform you by email.</target>
+</trans-unit>
+
+<trans-unit id="169">
+<source>What are you going to do now?</source>
+<target>What are you going to do now?</target>
+</trans-unit>
+
+<trans-unit id="170">
+<source>Product list</source>
+<target>Product list</target>
+</trans-unit>
+
+<trans-unit id="171">
+<source>Insert </source>
+<target>Insert </target>
+</trans-unit>
+
+<trans-unit id="172">
+<source>Insert Product</source>
+<target>Insert Product</target>
+</trans-unit>
+
+<trans-unit id="173">
+<source>Review</source>
+<target>Review</target>
+</trans-unit>
+
+<trans-unit id="174">
+<source>Advertising</source>
+<target>Advertising</target>
+</trans-unit>
+
+<trans-unit id="175">
+<source>Delete</source>
+<target>Delete</target>
+</trans-unit>
+
+<trans-unit id="176">
+<source>Are you sure ?</source>
+<target>Are you sure ?</target>
+</trans-unit>
+
+<trans-unit id="177">
+<source>Title</source>
+<target>Title</target>
+</trans-unit>
+
+<trans-unit id="178">
+<source>Created</source>
+<target>Created</target>
+</trans-unit>
+
+<trans-unit id="179">
+<source>Added</source>
+<target>Added</target>
+</trans-unit>
+
+<trans-unit id="180">
+<source>User has been asking a question in your product.</source>
+<target>User has been asking a question in your product.</target>
+</trans-unit>
+
+<trans-unit id="181">
+<source>Thank you for your reply</source>
+<target>Thank you for your reply</target>
+</trans-unit>
+
+<trans-unit id="182">
+<source> user write comment your replied product .</source>
+<target> user write comment your replied product .</target>
+</trans-unit>
+
+<trans-unit id="183">
+<source> product you have added  </source>
+<target> product you have added  </target>
+</trans-unit>
+
+<trans-unit id="184">
+<source> user left a comment.</source>
+<target> user left a comment.</target>
+</trans-unit>
+
+<trans-unit id="185">
+<source>Locations</source>
+<target>Locations</target>
+</trans-unit>
+
+<trans-unit id="186">
+<source>Compare</source>
+<target>Compare</target>
+</trans-unit>
+
+<trans-unit id="187">
+<source>Position</source>
+<target>Position</target>
+</trans-unit>
+
+<trans-unit id="188">
+<source>Company</source>
+<target>Company</target>
+</trans-unit>
+
+<trans-unit id="189">
+<source>Salary</source>
+<target>Salary</target>
+</trans-unit>
+
+<trans-unit id="190">
+<source>Location/Deadline</source>
+<target>Location/Deadline</target>
+</trans-unit>
+
+<trans-unit id="191">
+<source>Ad title</source>
+<target>Ad title</target>
+</trans-unit>
+
+<trans-unit id="192">
+<source>You can compare 5 products as maximum</source>
+<target>You can compare 5 products as maximum</target>
+</trans-unit>
+
+<trans-unit id="193">
+<source>+ Add </source>
+<target>+ Add </target>
+</trans-unit>
+
+<trans-unit id="194">
+<source>Compare products</source>
+<target>Compare products</target>
+</trans-unit>
+
+<trans-unit id="195">
+<source>Add my basket</source>
+<target>Add my basket</target>
+</trans-unit>
+
+<trans-unit id="196">
+<source>Name</source>
+<target>Name</target>
+</trans-unit>
+
+<trans-unit id="197">
+<source>Email</source>
+<target>Email</target>
+</trans-unit>
+
+<trans-unit id="198">
+<source>Content</source>
+<target>Content</target>
+</trans-unit>
+
+<trans-unit id="199">
+<source>Country</source>
+<target>Country</target>
+</trans-unit>
+
+<trans-unit id="200">
+<source>Attributes</source>
+<target>Attributes</target>
+</trans-unit>
+
+<trans-unit id="201">
+<source>Price and size</source>
+<target>Price and size</target>
+</trans-unit>
+
+<trans-unit id="202">
+<source>min</source>
+<target>min</target>
+</trans-unit>
+
+<trans-unit id="203">
+<source>max</source>
+<target>max</target>
+</trans-unit>
+
+<trans-unit id="204">
+<source>Area</source>
+<target>Area</target>
+</trans-unit>
+
+<trans-unit id="205">
+<source>Square</source>
+<target>Square</target>
+</trans-unit>
+
+<trans-unit id="206">
+<source>Add comment</source>
+<target>Add comment</target>
+</trans-unit>
+
+<trans-unit id="207">
+<source>Answer a question</source>
+<target>Answer a question</target>
+</trans-unit>
+
+<trans-unit id="208">
+<source>Insert your question.</source>
+<target>Insert your question.</target>
+</trans-unit>
+
+<trans-unit id="209">
+<source>Yozoa code</source>
+<target>Yozoa code</target>
+</trans-unit>
+
+<trans-unit id="210">
+<source>Available</source>
+<target>Available</target>
+</trans-unit>
+
+<trans-unit id="211">
+<source>To supply</source>
+<target>To supply</target>
+</trans-unit>
+
+<trans-unit id="212">
+<source>Shipping</source>
+<target>Shipping</target>
+</trans-unit>
+
+<trans-unit id="213">
+<source>No shipping</source>
+<target>No shipping</target>
+</trans-unit>
+
+<trans-unit id="214">
+<source>Buy</source>
+<target>Buy</target>
+</trans-unit>
+
+<trans-unit id="215">
+<source>Employer</source>
+<target>Employer</target>
+</trans-unit>
+
+<trans-unit id="216">
+<source>Search here</source>
+<target>Search here</target>
+</trans-unit>
+
+<trans-unit id="217">
+<source>Application via url</source>
+<target>Application via url</target>
+</trans-unit>
+
+<trans-unit id="218">
+<source>Apply now</source>
+<target>Apply now</target>
+</trans-unit>
+
+<trans-unit id="219">
+<source>Other jobs</source>
+<target>Other jobs</target>
+</trans-unit>
+
+<trans-unit id="220">
+<source>Deadline</source>
+<target>Deadline</target>
+</trans-unit>
+
+<trans-unit id="221">
+<source>Location</source>
+<target>Location</target>
+</trans-unit>
+
+<trans-unit id="222">
+<source>Website</source>
+<target>Website</target>
+</trans-unit>
+
+<trans-unit id="223">
+<source>Company information</source>
+<target>Company information</target>
+</trans-unit>
+
+<trans-unit id="224">
+<source>Contacts</source>
+<target>Contacts</target>
+</trans-unit>
+
+<trans-unit id="225">
+<source>Provider</source>
+<target>Provider</target>
+</trans-unit>
+
+<trans-unit id="226">
+<source>Other real estates</source>
+<target>Other real estates</target>
+</trans-unit>
+
+<trans-unit id="227">
+<source>Accommodation</source>
+<target>Accommodation</target>
+</trans-unit>
+
+<trans-unit id="228">
+<source>Start</source>
+<target>Start</target>
+</trans-unit>
+
+<trans-unit id="229">
+<source>Desired</source>
+<target>Desired</target>
+</trans-unit>
+
+<trans-unit id="230">
+<source>Address</source>
+<target>Address</target>
+</trans-unit>
+
+<trans-unit id="231">
+<source>Phone number</source>
+<target>Phone number</target>
+</trans-unit>
+
+<trans-unit id="232">
+<source>Similar products</source>
+<target>Similar products</target>
+</trans-unit>
+
+<trans-unit id="233">
+<source>New product</source>
+<target>New product</target>
+</trans-unit>
+
+<trans-unit id="234">
+<source>New post from</source>
+<target>New post from</target>
+</trans-unit>
+
+<trans-unit id="235">
+<source>Apply now for </source>
+<target>Apply now for </target>
+</trans-unit>
+
+<trans-unit id="236">
+<source>My information</source>
+<target>My information</target>
+</trans-unit>
+
+<trans-unit id="237">
+<source>Remember me</source>
+<target>Remember me</target>
+</trans-unit>
+
+<trans-unit id="238">
+<source>Profile information</source>
+<target>Profile information</target>
+</trans-unit>
+
+<trans-unit id="239">
+<source>User name</source>
+<target>User name</target>
+</trans-unit>
+
+<trans-unit id="240">
+<source>Full name</source>
+<target>Full name</target>
+</trans-unit>
+
+<trans-unit id="241">
+<source>Company name</source>
+<target>Company name</target>
+</trans-unit>
+
+<trans-unit id="242">
+<source>Edit profile</source>
+<target>Edit profile</target>
+</trans-unit>
+</body>
+  </file>
+</xliff>

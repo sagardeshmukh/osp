@@ -1,0 +1,7 @@
+editSuccess:
+  stylesheets:    [flick/jquery-ui-1.7.2.custom.css]
+  javascripts:    [ui/ui.core.min.js, ui/ui.dialog.min.js, ajaxupload.js, nicEdit/nicEdit.js]
+ 
+indexSuccess:
+  metas:
+    title:        Guestbook

@@ -1,0 +1,4 @@
+## YAML Template.
+indexSuccess:
+  stylesheets:    [flick/jquery-ui-1.7.2.custom.css]
+  javascripts:    [ui/ui.core.min.js, ui/ui.sortable.min.js]

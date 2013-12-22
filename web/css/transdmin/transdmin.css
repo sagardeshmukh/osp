@@ -1,0 +1,118 @@
+/* -----------------------------------------------
+
+	* Screen Style Sheet
+
+	* Name: Transdmin Light
+	
+	* Coded by: Perspectived
+	  http://www.perspectived.com
+
+----------------------------------------------- */
+
+/* CSS reset by Eric Meyer */
+@import url("reset.css");
+@import url("layout.css");
+@import url("jNice.css");
+@import url("hack.css");
+
+
+/*category*/
+.icon { 
+  padding-left: 20px;
+  margin-left: -20px;
+  background-image:url(/../images/icons.gif);background-repeat:no-repeat;
+}
+.icon10 {background-position:0 -302px;}
+.icon11 {background-position:0 -344px;}
+.ui-sortable li ul {
+    display: none;
+}
+.ui-sortable li.selected > ul {
+    display: block;
+}
+.ui-sortable li.loading> .icon {
+    background: url("/images/loading1.gif");
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    padding-left: 15px;
+}
+#categorydiv {padding:20px 15px;display:block;}
+#category_box_div {width:640px;height:240px;overflow-x:auto;}
+.progressive-select dt.link-click, .progressive-select a.link-click, .progressive-select dt.link-click:focus, .progressive-select a.link-click:focus {
+  background: #2880C1;
+  color:#FFFFFF !important;
+  text-decoration:none;
+}
+.progressive {
+  float:left;
+  margin-right:16px;
+  width:200px;
+}
+.progressive-select dt, .progressive-select a:link, .progressive-select a:visited {
+   color:-moz-fieldtext;
+   -moz-padding-end: 5px;
+    -moz-padding-start: 3px;
+    padding-bottom: 0;
+    padding-top: 0;
+    -moz-user-select: none;
+    display: block;
+    float: none !important;
+    text-decoration: none;
+    border-collapse: separate;
+    border-spacing: 2px;
+    line-height: normal !important;
+    min-height: 1em;
+    position: static !important;
+    text-indent: 0;
+
+    word-wrap: normal !important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: small;
+}
+dl.progressive-select {
+  border:1px solid #8DAEC7;
+  height:200px;
+  list-style-type:none;
+  margin-top:10px;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
+dl.progressive-select dd{
+  margin:0;
+  padding:0;
+}
+.progressive-select a:hover {
+  background:#979797;
+  color:#FFFFFF !important;
+  text-decoration:none;
+}
+/** BUTTON **/
+.continue-button {
+  float: left;
+  margin-top:10px;
+  border:1px solid #8DAEC7;
+  height:111px;
+  width: 83px;
+  margin-right: 4px;
+  padding: 8px;
+  position: relative;
+  color : #646464;
+  background: transparent url(/images/icons/check48.png) no-repeat center;
+}
+.continue-button .text {
+  position: absolute;
+  bottom: 5px;
+}
+.disabled-button {
+  opacity : 0.3;
+}
+.enabled-button {
+
+  opacity : 1;
+  cursor: pointer;
+}
+#chosenCategory{
+color: #2880C1;
+font-size: 20px;
+}

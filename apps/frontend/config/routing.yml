@@ -1,0 +1,120 @@
+advanced_search:
+  url: /:xType/advanced_search
+  param: { module: product, action: advancedSearch, xType: products }
+  requirements:
+    xType: (jobs|products|cars|realestates|usedandnew|rental|service)
+
+change_language:
+  url: /change_language
+  param: { module: language, action: changeLanguage }
+
+album:
+  url: /:sf_culture/album/:product_id
+  param: { module: product, action: album }
+
+xml_param:
+  url: /:sf_culture/param/:ObjectID.:sf_format
+  param: { module: tabs, action: param, sf_format: xml }
+  requirements:
+    sf_format: (?:html|xml)
+
+xml:
+  url: /:sf_culture/xml.:sf_format
+  param: { module: tabs, action: xml, sf_format: xml }
+  requirements:
+    sf_format: (?:html|xml)
+
+### RSS ###
+
+rss:
+  url:   /rss/:categoryId
+  param: { module: rss, action: list, categoryId: 0 }
+
+rss_homepage:
+  url:   /rss_index
+  param: { module: rss, action: index }
+
+### PRODUCT ###
+
+# product browse
+product_compare:
+  url:   /:sf_culture/productCompare/*
+  param: { module: product, action: compare }
+
+# product browse
+product_browse:
+  url:   /:sf_culture/:xType/
+  param: { module: product, action: browse }
+  requirements:
+    sf_culture: ([a-z]{2})
+    xType: (jobs|products|cars|realestates|rental|usedandnew|service|buy_online|paid|sale|recent_hours|recent_days|urgent|top|hot)
+
+category_home:
+  url:   /:sf_culture/:xType
+  param: { module: product, action: categoryHome }
+  requirements:
+    sf_culture: ([a-z]{2})
+    xType: (jobs|products|cars|realestates|rental|usedandnew|service)
+  
+product_search:
+  url:   /:sf_culture/productSearch/*
+  param: { module: product, action: search }
+
+
+# product view
+product_show:
+  url:   /:sf_culture/p/:id
+  param: { module: product, action: show }
+  class: sfDoctrineRoute
+  options:
+    model: Product
+    type:  object
+  requirements:
+    id: \d+
+  
+### HELP ###
+
+help_warning:
+  url:   /:sf_culture/help/warning/*
+  param: { module: help, action: warning }
+  
+answer:
+  url:   /:sf_culture/help/:id
+  param: { module: help, action: show }
+
+### USER ###
+
+user_login:
+  url:   /:sf_culture/login
+  param: { module: user, action: login }
+
+# user login
+user_logout:
+  url:   /:sf_culture/logout
+  param: { module: user, action: logout }
+
+  
+### DEFAULT ###
+homepage:
+  url:   /
+  param: { module: product, action: index }
+
+localized_homepage:
+  url: /:sf_culture/
+  param: { module: product, action: index }
+  requirements:
+    sf_culture: ([a-z]{2})
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default1:
+  url:   /:sf_culture/:module/:action/*
+  requirements:
+    sf_culture: ([a-z]{2})
+    
+default2:
+  url:   /:module/:action/*

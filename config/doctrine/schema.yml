@@ -1,0 +1,366 @@
+Attribute:
+  connection: yozoa
+  tableName: attribute
+  columns:
+    id: { type: integer, primary: true,  autoincrement: true }
+    name: {type: string(255), notnull: true}
+    type: {type: string(50), notnull: true}
+    country: {type: integer(2), default: 0, notnull: true}
+    is_main: {type: boolean, notnull: true }
+    is_column: {type: boolean, notnull: true}
+    is_filterable: {type: boolean,default: true, notnull: true}
+    sort_order: {type: integer(2), default: 0, notnull: true}
+    is_required: { type: boolean, default: true, notnull: true}
+    is_collapse: { type: integer(1), default: 0, notnull: true}
+    is_map: {type: boolean, notnull: true}
+    hint: { type: string(), default: null}
+
+AttributeValues:
+  connection: yozoa
+  tableName: attribute_values
+  columns:
+    id: {type: integer, primary: true, autoincrement: true }
+    attribute_id: {type : integer, notnull: true}
+    value: { type: string(255), notnull: true }
+    sort_order: {type: integer(2), default: 0, notnull: true}
+  relations:
+    Attribute: {local: attribute_id, foreign: id, type: one}
+    ProductAttribute: {class: ProductAttribute, refClass: ProductAttributeValue, local: attribute_value_id, foreign: product_attribute_id }
+
+I18nAttributeValues:
+  connection: yozoa
+  tableName: i18n_attribute_values
+  columns:
+    attr_value_id: {type: integer, primary: true }
+    culture: { type : string(5), primary: true }
+    value: { type: string(255), notnull: true }
+  relations:
+    AttributeValues: {local: attr_value_id, foreign: id, type: one }
+
+I18nAttribute:
+  connection: yozoa
+  tableName: i18n_attribute
+  columns:
+    attribute_id: {type: integer, primary: true }
+    culture: { type : string(5), primary: true }
+    name: { type: string(255) }
+    hint: { type: string()}
+  relations:
+    Attribute: {local: attribute_id, foreign: id, type: one}
+
+I18nCategory:
+  connection: yozoa
+  tableName: i18n_category
+  columns:
+    category_id: {type: integer, primary: true }
+    culture: { type : string(5), primary: true }
+    name: { type: string(255) }
+  relations:
+    Category: {local: category_id, foreign: id, type: one}
+
+Banner:
+  connection: yozoa
+  tableName: banner
+  columns:
+    id:   { type: integer, primary: true, autoincrement: true }
+    name: { type: string(255), notnull: true}
+    type: {type: string(5), notnull: true}
+    width: {type: integer(4), notnull: true }
+    height: {type: integer(4),notnull: true }
+    begin_date: {type: timestamp(25), notnull: true}
+    end_date: {type: timestamp(25), notnull: true}
+    file: {type: string(255), notnull: true}
+    link: {type: string(255), notnull: true}
+    nb_views: {type: integer, notnull: true}
+    category_id: {type: integer}
+    is_recursive: {type : integer, default: 1}
+    user_id: {type : integer}
+    is_active: {type: integer(1), notnull: true}
+    code: {type: string(100), notnull: true}
+
+Category:
+  connection: yozoa
+  tableName: category
+  columns:
+    id: {type: integer, primary: true,  autoincrement: true}
+    name: { type: string(255), notnull: true}
+    description: {type: string(), notnull: true }
+    logo: { type: string(255), notnull: true}
+    is_visible: {type: boolean, default: true,notnull: true}
+    is_featured: {type: boolean,default: false, notnull: true }
+    is_map: {type: boolean, default: true,notnull: true}
+    parent_id: {type: integer, default: 0, notnull: true}
+    lft: {type: integer, default: 0, notnull: true}
+    rgt: {type: integer, default: 0, notnull: true}
+    level: { type: integer(1), default: 0, notnull: true }
+    sort_order: {type: integer(2),default : 0, notnull: true}
+  relations:
+    Category : { local: parent_id, foreign: id, type: one }
+      
+CategoryAttribute:
+  connection: yozoa
+  tableName: category_attribute
+  columns:
+    category_id: {type: integer, primary: true}
+    attribute_id: {type: integer, primary: true}
+  relations:
+    Category: {local: category_id, foreign: id, type: one}
+    Attribute: { local: attribute_id,foreign: id, type: one }
+    
+Guestbook:
+  connection: yozoa
+  tableName: guestbook
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: {type: string(255),  notnull: true}
+    body: {type: string(), notnull: true }
+    email: { type: string(255), notnull: true}
+    created_at: {type: timestamp(25), notnull: true}
+    confirmed: {type: integer(1), notnull: true}
+    
+HelpCategory:
+  connection: yozoa
+  tableName: help_category
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: {type: string(255),  notnull: true}
+    sort_order: {type: integer(1),  notnull: true}
+  relations:
+    HelpTopic: {local: id, foreign: help_category_id, type: many}
+      
+HelpTopic:
+  connection: yozoa
+  tableName: help_topic
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    question: {type: string(255),  notnull: true}
+    answer: {type: string(), notnull: true }
+    sort_order: {type: integer(4),  notnull: true}
+    help_category_id: { type: integer, notnull: true}
+    read_count: { type: integer, default: 0, notnull: true}
+  relations:
+    HelpCategory: {local: help_category_id, foreign: id, type: one}
+
+Product:
+  connection: yozoa
+  tableName: product
+  options: { type: MyISAM }
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    name: {type: string(255),  notnull: true}
+    description: {type: string(),  notnull: true}
+    image: {type: string(255),  notnull: true}
+    category_id: {type: integer,  notnull: true}
+    is_new: {type: boolean, default: true,  notnull: true}
+    status: { type: integer(1), default: -1, notnull: true }
+    user_id: { type: integer, notnull: true}
+    currency_main: {type: string(4), default: USD, notnull: true }
+    price_original: {type: float(), default: 0, notnull: true}
+    price_global: {type: float(), default: 0, notnull: true}
+    attribute_value_ids: {type: string() }
+    created_at: {type: timestamp(25)}
+    updated_at: {type: timestamp(25)}
+    confirmed_at: {type: timestamp(25)}
+    duration: {type: integer, default: 7, notnull: true}
+    buy_online: { type: boolean, default: 0, notnull: true}
+    internal: { type: boolean, default: 0, notnull: true}
+    delivery_status: { type: boolean, default: true, notnull: true }
+    delivery_type: { type: boolean, default: true, notnull: true }
+    phone_cell: {type: string(50), default: null}
+    phone_home: { type: string(50), default: null}
+    surname: {type: string(100), default: null}
+    x_area_id: {type: integer, notnull: true }
+    x_area_location_id: {type: integer, default: null}
+  indexes:
+    content:
+      fields: [name, attribute_value_ids]
+      type: fulltext
+  relations:
+    Category: {local: category_id, foreign: id, type: one}
+    XArea: { local: x_area_id, foreign: id, type: one}
+    XAreaLocation: { local: x_area_location_id, foreign: id, type: one}
+      
+ProductAttribute:
+  connection: yozoa
+  tableName: product_attribute
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    product_id: { type: integer, notnull: true }
+    attribute_id: { type: integer, notnull: true }
+    attribute_value: { type: string(255) }
+  relations:
+    Product: {local: product_id, foreign: id, type: one }
+    Attribute: {local: attribute_id, foreign: id, type: one }
+    AttributeValues: {class: AttributeValues, refClass: ProductAttributeValue, local: product_attribute_id, foreign: attribute_value_id}
+      
+ProductAttributeValue:
+  connection: yozoa
+  tableName: product_attribute_value
+  columns:
+    product_attribute_id: {type: integer, primary: true}
+    attribute_value_id: {type: integer, primary: true}
+  relations:
+    ProductAttribute: {local: product_attribute_id, foreign: id, type: one}
+    AttributeValues: { local: attribute_value_id, foreign: id, type: one }
+      
+ProductComment:
+  connection: yozoa
+  tableName: product_comment
+  columns:
+    id: { type: integer, primary: true, autoincrement: true}
+    user_id: {type: integer, notnull: true}
+    parent_id: { type: integer, default: 0, notnull: true}
+    product_id: {type: integer, notnull: true}
+    type: {type: integer, default: 0, notnull: true}
+    body: {type: string(),  notnull: true}
+    email: {type: string(255), notnull: true}
+    created_at: { type: timestamp(25), notnull: true}
+  relations:
+    Product: {local: product_id, foreign: id, type: one}      
+    User: { local: user_id, foreign: id, type: one}
+
+ProductImage:
+  connection: yozoa
+  tableName: product_image
+  columns:
+    id: { type: integer, primary: true, autoincrement: true}
+    folder: {type: string(255), notnull: true}
+    filename: {type: string(100), notnull: true }
+    sort_order: {type: integer(1), default: 0, notnull: true}
+    product_id: { type: integer, notnull: true }
+  relations:
+    Product: {local: product_id,foreign: id,type: one}
+
+ProductStat:
+  connection: yozoa
+  tableName: product_stat
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    product_id: {type: integer, notnull: true}
+    sold: {type: integer, notnull: true}
+    incorrect: {type: integer, notnull: true}
+    read_count: { type: integer, default: 0, notnull: true}
+    share_count: {type: integer, default: 0, notnull: true}
+  relations:
+    Product: {local: product_id, foreign: id, type: one}
+
+User:
+  connection: yozoa
+  tableName: user
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    username: {type: string(50), notnull: true}
+    password: {type: string(50),notnull: true }
+    firstname: { type: string(100), notnull: true}
+    lastname: { type: string(100), notnull: true}
+    initial: {type: string(1), notnull: true}
+    gender: {type: integer(1), notnull: true}
+    email: {type: string(50), notnull: true}
+    address: {type: string(500), notnull: true}
+    is_active: {type: boolean, default: false, notnull: true }
+    last_seen_at: {type: timestamp(25), notnull: true}
+    image: { type: string(255), notnull: true}
+    culture: {type: string(4), notnull: true }
+    x_area_id: {type: integer, notnull: true }
+    fevorite_products: { type: string(255), notnull: false}
+    prefferred_language: {type: string(4), default: true, notnull: true }
+    prefferred_currency: {type: string(4), default: true, notnull: true }
+  relations:
+    XArea: { local: x_area_id, foreign: id, type: one}
+    Language: { local: language, foreign: culture, type: one }
+    
+Admin:
+  connection: yozoa
+  tableName: admin
+  columns:
+    id: { type: integer, primary: true, autoincrement: true }
+    firstname: { type: string(100), notnull: true}
+    lastname: { type: string(100), notnull: true}
+    username: { type: string(100), notnull: true }
+    password: { type: string(32), notnull: true }
+    email: { type: string(100)}
+    type: { type : integer(1), default: 0 , notnull: true}
+    last_logged_at: { type: timestamp(25), notnull: true}
+    created_at: {type: timestamp(25),notnull: true }
+    permission: {type: string(255)}
+    
+XArea:
+  connection: yozoa
+  tableName: x_area
+  columns:
+    id: { type: integer,  primary: true, autoincrement: true }
+    parent_id: { type: integer , default: 0, notnull: true}
+    name: { type: string(255) }
+    map_lat:  { type: float }
+    map_lng:  { type: float }
+    lft:  { type: integer, default: 0, notnull: true }
+    rgt:  { type: integer, default: 0, notnull: true }
+    lvl:  { type: integer, default: 0, notnull: true }
+  relations:
+    XArea: {local: parent_id, foreign: id, type: one}
+
+Currency:
+  connection: yozoa
+  tableName: currency
+  columns:
+    code: { type: string(3),  primary: true }
+    name: { type: string(255), notnull: true}
+    symbol: { type: string(5), notnull: true}
+    value: { type: float }
+    updated_at: {type: timestamp, notnull: true}
+
+Language:
+  connection: yozoa
+  tableName: language
+  columns:
+    culture: { type: string(2),  primary: true }
+    name: { type: string(255), notnull: true}
+    prefferred_currency: { type: string(3), notnull: true}
+
+PriceFormat:
+  connection: yozoa
+  tableName: price_format
+  actAs: { Timestampable: ~ }
+  columns:
+    category_id: { type: integer, notnull: true }
+    x_area_id: {type: integer, notnull: true }
+    currency_main: {type: string(4), default: USD, notnull: true }
+    price_original: {type: float(), default: 0, notnull: true}
+    price_global: {type: float(), default: 0, notnull: true}
+    description: {type: string(),  notnull: true}
+  relations:
+    Category: {local: category_id, foreign: id, type: one}
+    XArea: { local: x_area_id, foreign: id, type: one}
+
+Ipcountry:
+  connection: yozoa
+  tableName: ipcountry
+  columns:
+    ip_from: { type: string(255),  primary: true }
+    ip_to: { type: string(255), notnull: true}
+    country_iso1: { type: string(5), notnull: true}
+    country_iso2: { type: string(5), notnull: true}
+    country_long: { type: string(200), notnull: true}
+
+CountryLangCurr:
+  connection: yozoa
+  tableName: country_lang_curr
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    country_name: { type: string(255), notnull: true}
+    country_code: { type: string(2), notnull: true}
+    language_name: { type: string(255), notnull: true}
+    language_code: { type: string(2), notnull: true}
+    currency_code: { type: string(3), notnull: true}
+
+XAreaLocation:
+  connection: yozoa
+  tableName: x_area_location
+  columns:
+    id: { type: integer,  primary: true, autoincrement: true }
+    parent_id: { type: integer , default: 0, notnull: true}
+    name: { type: string(255) }
+    map_lat:  { type: float }
+    map_lng:  { type: float }
+  relations:
+    XArea: {local: parent_id, foreign: id, type: one}

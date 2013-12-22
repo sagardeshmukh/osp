@@ -1,0 +1,6 @@
+newSuccess:
+  javascripts:    [/js/ckeditor/ckeditor.js]
+editSuccess:
+  javascripts:    [/js/ckeditor/ckeditor.js]
+loginSuccess:
+  layout:         loginLayout

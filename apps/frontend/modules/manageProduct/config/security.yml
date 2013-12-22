@@ -1,0 +1,7 @@
+## YAML Template.
+childArea:
+  is_secure: false
+
+all:
+  is_secure: true
+  credentials: bizuser

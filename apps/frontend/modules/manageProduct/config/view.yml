@@ -1,0 +1,10 @@
+## YAML Template.
+step2Success:
+  stylesheets:    [flick/jquery-ui-1.7.2.custom.css]
+  javascripts:    [ui/ui.core.min.js, ui/ui.dialog.min.js, ui/ui.draggable.min.js, ajaxupload.js, whizzywig/whizzywig61.js]
+step3Success:
+  stylesheets:    [colorbox.css]
+  javascripts:    [jquery.colorbox-min.js]
+myProductSuccess:
+  stylesheets:    [flick/jquery-ui-1.7.2.custom.css]
+  javascripts:    [ui/ui.core.min.js, ui/ui.dialog.min.js]

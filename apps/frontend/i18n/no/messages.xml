@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="no" datatype="plaintext" original="messages" date="2011-01-20T19:33:32Z" product-name="messages">
+    <header/>
+    <body>
+    
+<trans-unit id="1">
+<source>About us</source>
+<target>Om oss</target>
+</trans-unit>
+
+<trans-unit id="2">
+<source>Contact us</source>
+<target>Kontakt oss</target>
+</trans-unit>
+
+<trans-unit id="3">
+<source>Open yozoa</source>
+<target>Åpne yozoa</target>
+</trans-unit>
+
+<trans-unit id="4">
+<source>Customer comment</source>
+<target>Kunden kommentar</target>
+</trans-unit>
+
+<trans-unit id="5">
+<source>Membership</source>
+<target>Medlemskap</target>
+</trans-unit>
+
+<trans-unit id="6">
+<source>Latest products</source>
+<target>Siste produkter</target>
+</trans-unit>
+
+<trans-unit id="7">
+<source>Products on sale</source>
+<target>Produkter i salg</target>
+</trans-unit>
+
+<trans-unit id="8">
+<source>Urgent</source>
+<target>Haster</target>
+</trans-unit>
+
+<trans-unit id="9">
+<source>Working with us</source>
+<target>Arbeide hos oss</target>
+</trans-unit>
+
+<trans-unit id="10">
+<source>Register</source>
+<target>Register</target>
+</trans-unit>
+
+<trans-unit id="11">
+<source>Add product</source>
+<target>Legg til produkt</target>
+</trans-unit>
+
+<trans-unit id="12">
+<source>Leave a comment</source>
+<target>Legg igjen en kommentar</target>
+</trans-unit>
+
+<trans-unit id="13">
+<source>Connect website</source>
+<target>Koble nettsiden</target>
+</trans-unit>
+
+<trans-unit id="14">
+<source>Business</source>
+<target>Business</target>
+</trans-unit>
+
+<trans-unit id="15">
+<source>Advertisement</source>
+<target>Annonse</target>
+</trans-unit>
+
+<trans-unit id="16">
+<source>Partner</source>
+<target>Partner</target>
+</trans-unit>
+
+<trans-unit id="17">
+<source>Terms</source>
+<target>Vilkår</target>
+</trans-unit>
+
+<trans-unit id="18">
+<source>Privacy policy</source>
+<target>Personvern</target>
+</trans-unit>
+
+<trans-unit id="19">
+<source>Login</source>
+<target>Logg inn</target>
+</trans-unit>
+
+<trans-unit id="20">
+<source>Info</source>
+<target>Info</target>
+</trans-unit>
+
+<trans-unit id="21">
+<source>Help</source>
+<target>Hjelp</target>
+</trans-unit>
+
+<trans-unit id="22">
+<source>All categories</source>
+<target>Alle kategorier</target>
+</trans-unit>
+
+<trans-unit id="23">
+<source>Products</source>
+<target>Produkter</target>
+</trans-unit>
+
+<trans-unit id="24">
+<source>Automobiles</source>
+<target>Automobiles</target>
+</trans-unit>
+
+<trans-unit id="25">
+<source>Real estate</source>
+<target>Real estate</target>
+</trans-unit>
+
+<trans-unit id="26">
+<source>Recommended for you</source>
+<target>Anbefales for deg</target>
+</trans-unit>
+
+<trans-unit id="27">
+<source>E-Commerce</source>
+<target>E-handel</target>
+</trans-unit>
+
+<trans-unit id="28">
+<source>All products</source>
+<target>Alle produkter</target>
+</trans-unit>
+
+<trans-unit id="29">
+<source>All automobiles</source>
+<target>Alle biler</target>
+</trans-unit>
+
+<trans-unit id="30">
+<source>All real estates</source>
+<target>Alle eiendommer</target>
+</trans-unit>
+
+<trans-unit id="31">
+<source>Real Estate</source>
+<target>Real Estate</target>
+</trans-unit>
+
+<trans-unit id="32">
+<source>Cars</source>
+<target>Biler</target>
+</trans-unit>
+
+<trans-unit id="33">
+<source>Online help</source>
+<target>Online hjelp</target>
+</trans-unit>
+
+<trans-unit id="34">
+<source>Categories</source>
+<target>Kategorier</target>
+</trans-unit>
+
+<trans-unit id="35">
+<source>+ Add product</source>
+<target>+ Legg til produkt</target>
+</trans-unit>
+
+<trans-unit id="36">
+<source> + Add product</source>
+<target>+ Legg til produkt</target>
+</trans-unit>
+
+<trans-unit id="37">
+<source>New</source>
+<target>Nye</target>
+</trans-unit>
+
+<trans-unit id="38">
+<source>24 hour</source>
+<target>24 timers</target>
+</trans-unit>
+
+<trans-unit id="39">
+<source>3 days</source>
+<target>3 dager</target>
+</trans-unit>
+
+<trans-unit id="40">
+<source>Buy now</source>
+<target>Kjøp nå</target>
+</trans-unit>
+
+<trans-unit id="41">
+<source>Paid</source>
+<target>Betalt</target>
+</trans-unit>
+
+<trans-unit id="42">
+<source>Sale</source>
+<target>Salg</target>
+</trans-unit>
+
+<trans-unit id="43">
+<source>Top 100 products</source>
+<target>Topp 100 produkter</target>
+</trans-unit>
+
+<trans-unit id="44">
+<source>Homepage products</source>
+<target>Hjemmeside produkter</target>
+</trans-unit>
+
+<trans-unit id="45">
+<source>Category</source>
+<target>Kategori</target>
+</trans-unit>
+
+<trans-unit id="46">
+<source>More</source>
+<target>Mer</target>
+</trans-unit>
+
+<trans-unit id="47">
+<source>Keyword</source>
+<target>Søkeord</target>
+</trans-unit>
+
+<trans-unit id="48">
+<source>Other</source>
+<target>Andre</target>
+</trans-unit>
+
+<trans-unit id="49">
+<source>Total</source>
+<target>Total</target>
+</trans-unit>
+
+<trans-unit id="50">
+<source>Sort</source>
+<target>Sorter</target>
+</trans-unit>
+
+<trans-unit id="51">
+<source>View</source>
+<target>View</target>
+</trans-unit>
+
+<trans-unit id="52">
+<source>Answers, Questions</source>
+<target>Svar, spørsmål</target>
+</trans-unit>
+
+<trans-unit id="53">
+<source>Time left</source>
+<target>Tid igjen</target>
+</trans-unit>
+
+<trans-unit id="54">
+<source>Seller</source>
+<target>Selger</target>
+</trans-unit>
+
+<trans-unit id="55">
+<source>New Questions and Answers</source>
+<target>Nye Spørsmål og svar</target>
+</trans-unit>
+
+<trans-unit id="56">
+<source>Last</source>
+<target>Siste</target>
+</trans-unit>
+
+<trans-unit id="57">
+<source>3 хоног</source>
+<target>3 хоног</target>
+</trans-unit>
+
+<trans-unit id="58">
+<source>New construction projects</source>
+<target>Nye byggeprosjekter</target>
+</trans-unit>
+
+<trans-unit id="59">
+<source>Phone</source>
+<target>Telefon</target>
+</trans-unit>
+
+<trans-unit id="60">
+<source>Send a message</source>
+<target>Send en melding</target>
+</trans-unit>
+
+<trans-unit id="61">
+<source>Other products</source>
+<target>Andre produkter</target>
+</trans-unit>
+
+<trans-unit id="62">
+<source>Same products</source>
+<target>Samme produkter</target>
+</trans-unit>
+
+<trans-unit id="63">
+<source>Price</source>
+<target>Pris</target>
+</trans-unit>
+
+<trans-unit id="64">
+<source>From who</source>
+<target>Fra hvem</target>
+</trans-unit>
+
+<trans-unit id="65">
+<source>Status</source>
+<target>Status</target>
+</trans-unit>
+
+<trans-unit id="66">
+<source>Available status</source>
+<target>Tilgjengelig status</target>
+</trans-unit>
+
+<trans-unit id="67">
+<source>Delivery</source>
+<target>Levering</target>
+</trans-unit>
+
+<trans-unit id="68">
+<source>Ask a question</source>
+<target>Still et spørsmål</target>
+</trans-unit>
+
+<trans-unit id="69">
+<source>Print</source>
+<target>Skriv ut</target>
+</trans-unit>
+
+<trans-unit id="70">
+<source>Send friends</source>
+<target>Send venner</target>
+</trans-unit>
+
+<trans-unit id="71">
+<source>Description</source>
+<target>Beskrivelse</target>
+</trans-unit>
+
+<trans-unit id="72">
+<source>Additional information</source>
+<target>Tilleggsinformasjon</target>
+</trans-unit>
+
+<trans-unit id="73">
+<source>Join</source>
+<target>Bli med</target>
+</trans-unit>
+
+<trans-unit id="74">
+<source>My Products</source>
+<target>Mine produkter</target>
+</trans-unit>
+
+<trans-unit id="75">
+<source>Logout</source>
+<target>Logg ut</target>
+</trans-unit>
+
+<trans-unit id="76">
+<source>Error has occurred</source>
+<target>Feilen har oppstått</target>
+</trans-unit>
+
+<trans-unit id="77">
+<source>minut ago</source>
+<target>minut siden</target>
+</trans-unit>
+
+<trans-unit id="78">
+<source>hour</source>
+<target>time</target>
+</trans-unit>
+
+<trans-unit id="79">
+<source>minuts ago</source>
+<target>minuts siden</target>
+</trans-unit>
+
+<trans-unit id="80">
+<source>hours ago</source>
+<target>timer siden</target>
+</trans-unit>
+
+<trans-unit id="81">
+<source>page</source>
+<target>side</target>
+</trans-unit>
+
+<trans-unit id="82">
+<source>results</source>
+<target>resultater</target>
+</trans-unit>
+
+<trans-unit id="83">
+<source>First</source>
+<target>Første</target>
+</trans-unit>
+
+<trans-unit id="84">
+<source>First page</source>
+<target>Første side</target>
+</trans-unit>
+
+<trans-unit id="85">
+<source>Last page</source>
+<target>Siste side</target>
+</trans-unit>
+
+<trans-unit id="86">
+<source>sale</source>
+<target>salg</target>
+</trans-unit>
+
+<trans-unit id="87">
+<source>homepage</source>
+<target>hjemmeside</target>
+</trans-unit>
+
+<trans-unit id="88">
+<source>subpage</source>
+<target>underside</target>
+</trans-unit>
+
+<trans-unit id="89">
+<source>toplist</source>
+<target>toppliste</target>
+</trans-unit>
+
+<trans-unit id="90">
+<source>topsearch</source>
+<target>topsearch</target>
+</trans-unit>
+
+<trans-unit id="91">
+<source>different</source>
+<target>forskjellige</target>
+</trans-unit>
+
+<trans-unit id="92">
+<source>urgent</source>
+<target>haster</target>
+</trans-unit>
+
+<trans-unit id="93">
+<source>Jobs</source>
+<target>Jobber</target>
+</trans-unit>
+
+<trans-unit id="94">
+<source>Rental</source>
+<target>Utleie</target>
+</trans-unit>
+
+<trans-unit id="95">
+<source>All rents</source>
+<target>Alle leier</target>
+</trans-unit>
+
+<trans-unit id="96">
+<source>Vehicle</source>
+<target>Kjøretøy</target>
+</trans-unit>
+
+<trans-unit id="97">
+<source>All Vehicle</source>
+<target>Alle kjøretøy</target>
+</trans-unit>
+
+<trans-unit id="98">
+<source>Used and New</source>
+<target>Brukt og Nytt</target>
+</trans-unit>
+
+<trans-unit id="99">
+<source>All used and new</source>
+<target>Alle brukte og nye</target>
+</trans-unit>
+
+<trans-unit id="100">
+<source>Service</source>
+<target>Service</target>
+</trans-unit>
+
+<trans-unit id="101">
+<source>All services</source>
+<target>Alle tjenester</target>
+</trans-unit>
+
+<trans-unit id="102">
+<source>Your product has been expired.</source>
+<target>Produktet er utløpt.</target>
+</trans-unit>
+
+<trans-unit id="103">
+<source>Your inserted product in Yozoa.com.</source>
+<target>Ditt satt inn produktet i Yozoa.com.</target>
+</trans-unit>
+
+<trans-unit id="104">
+<source>Customer comments</source>
+<target>Kunden kommentarer</target>
+</trans-unit>
+
+<trans-unit id="105">
+<source>Send</source>
+<target>Send</target>
+</trans-unit>
+
+<trans-unit id="106">
+<source>Cancel</source>
+<target>Avbryt</target>
+</trans-unit>
+
+<trans-unit id="107">
+<source>Comment board</source>
+<target>Kommentar bord</target>
+</trans-unit>
+
+<trans-unit id="108">
+<source>Continue</source>
+<target>Fortsett</target>
+</trans-unit>
+
+<trans-unit id="109">
+<source>Common questions</source>
+<target>Vanlige spørsmål</target>
+</trans-unit>
+
+<trans-unit id="110">
+<source>Related Questions</source>
+<target>Relaterte spørsmål</target>
+</trans-unit>
+
+<trans-unit id="111">
+<source>Online </source>
+<target>Online</target>
+</trans-unit>
+
+<trans-unit id="112">
+<source>Do you want to read click</source>
+<target>Vil du lese klikke</target>
+</trans-unit>
+
+<trans-unit id="113">
+<source>here</source>
+<target>her</target>
+</trans-unit>
+
+<trans-unit id="114">
+<source>Good luck</source>
+<target>Lykke til</target>
+</trans-unit>
+
+<trans-unit id="115">
+<source> Products</source>
+<target>Produkter</target>
+</trans-unit>
+
+<trans-unit id="116">
+<source> Code</source>
+<target>Kode</target>
+</trans-unit>
+
+<trans-unit id="117">
+<source>Add new product</source>
+<target>Legg til nytt produkt</target>
+</trans-unit>
+
+<trans-unit id="118">
+<source>Search product</source>
+<target>Søk etter produkt</target>
+</trans-unit>
+
+<trans-unit id="119">
+<source>Search automobiles</source>
+<target>Søk biler</target>
+</trans-unit>
+
+<trans-unit id="120">
+<source>Search real estates</source>
+<target>Søk eiendommer</target>
+</trans-unit>
+
+<trans-unit id="121">
+<source>named product you have inserted has been put in yozoa.com for</source>
+<target>heter produktet du har satt inn, har blitt satt i yozoa.com for</target>
+</trans-unit>
+
+<trans-unit id="122">
+<source>days left</source>
+<target>dager igjen</target>
+</trans-unit>
+
+<trans-unit id="123">
+<source>Recently openned</source>
+<target>Nylig openned</target>
+</trans-unit>
+
+<trans-unit id="124">
+<source>times</source>
+<target>ganger</target>
+</trans-unit>
+
+<trans-unit id="125">
+<source>Link</source>
+<target>Link</target>
+</trans-unit>
+
+<trans-unit id="126">
+<source>What will we do now</source>
+<target>Hva skal vi gjøre nå</target>
+</trans-unit>
+
+<trans-unit id="127">
+<source>You can</source>
+<target>Du kan</target>
+</trans-unit>
+
+<trans-unit id="128">
+<source>extend</source>
+<target>forlenge</target>
+</trans-unit>
+
+<trans-unit id="129">
+<source>share</source>
+<target>aksje</target>
+</trans-unit>
+
+<trans-unit id="130">
+<source>advertise</source>
+<target>annonsere</target>
+</trans-unit>
+
+<trans-unit id="131">
+<source>If it sold, you can</source>
+<target>Hvis den selges, kan du</target>
+</trans-unit>
+
+<trans-unit id="132">
+<source>delete</source>
+<target>slette</target>
+</trans-unit>
+
+<trans-unit id="133">
+<source>You can add new product</source>
+<target>Du kan legge til nye produkter</target>
+</trans-unit>
+
+<trans-unit id="134">
+<source>insert</source>
+<target>sette inn</target>
+</trans-unit>
+
+<trans-unit id="135">
+<source>Error has occurred in server, please inform system administrator.</source>
+<target>Det har oppstått i server, vennligst informer system administrator.</target>
+</trans-unit>
+
+<trans-unit id="136">
+<source>Error has occurred, choose different file .</source>
+<target>Det har oppstått, velge andre filen.</target>
+</trans-unit>
+
+<trans-unit id="137">
+<source>Error has occurred during converting your image.</source>
+<target>Feil oppstod under konvertering av bildet.</target>
+</trans-unit>
+
+<trans-unit id="138">
+<source>Error has occurred while sending file</source>
+<target>Feil har oppstått under sending fil</target>
+</trans-unit>
+
+<trans-unit id="139">
+<source>Only allowed (png, jpg, gif) file formats.</source>
+<target>Bare lov (png, jpg, gif) filformater.</target>
+</trans-unit>
+
+<trans-unit id="140">
+<source>Error has occurred while converting image.</source>
+<target>Feil har oppstått under konvertering bildet.</target>
+</trans-unit>
+
+<trans-unit id="141">
+<source>next</source>
+<target>neste</target>
+</trans-unit>
+
+<trans-unit id="142">
+<source>Expired</source>
+<target>Utløpt</target>
+</trans-unit>
+
+<trans-unit id="143">
+<source>Denied</source>
+<target>Denied</target>
+</trans-unit>
+
+<trans-unit id="144">
+<source>Pending</source>
+<target>Venter</target>
+</trans-unit>
+
+<trans-unit id="145">
+<source>Active</source>
+<target>Aktiv</target>
+</trans-unit>
+
+<trans-unit id="146">
+<source>You have no product.</source>
+<target>Du har ingen produkt.</target>
+</trans-unit>
+
+<trans-unit id="147">
+<source>Extend</source>
+<target>Utvid</target>
+</trans-unit>
+
+<trans-unit id="148">
+<source>Successfully extended</source>
+<target>Vellykket utvidet</target>
+</trans-unit>
+
+<trans-unit id="149">
+<source>Select category</source>
+<target>Velg kategori</target>
+</trans-unit>
+
+<trans-unit id="150">
+<source>Main information</source>
+<target>Main informasjon</target>
+</trans-unit>
+
+<trans-unit id="151">
+<source>Edit</source>
+<target>Rediger</target>
+</trans-unit>
+
+<trans-unit id="152">
+<source>Employer information</source>
+<target>Arbeidsgiver informasjon</target>
+</trans-unit>
+
+<trans-unit id="153">
+<source>Contact information</source>
+<target>Kontaktinformasjon</target>
+</trans-unit>
+
+<trans-unit id="154">
+<source>Map</source>
+<target>Kart</target>
+</trans-unit>
+
+<trans-unit id="155">
+<source>Contact</source>
+<target>Kontakt</target>
+</trans-unit>
+
+<trans-unit id="156">
+<source>Rental agreement, Location</source>
+<target>Leieavtalen, Beliggenhet</target>
+</trans-unit>
+
+<trans-unit id="157">
+<source>Add a new Agreement Contract</source>
+<target>Legg til en ny avtale kontrakt</target>
+</trans-unit>
+
+<trans-unit id="158">
+<source>Service information</source>
+<target>Service informasjon</target>
+</trans-unit>
+
+<trans-unit id="159">
+<source>Who is the contact?</source>
+<target>Hvem er kontakten?</target>
+</trans-unit>
+
+<trans-unit id="160">
+<source>Insert image</source>
+<target>Sett inn bilde</target>
+</trans-unit>
+
+<trans-unit id="161">
+<source>Back</source>
+<target>Tilbake</target>
+</trans-unit>
+
+<trans-unit id="162">
+<source>Warning</source>
+<target>Advarsel</target>
+</trans-unit>
+
+<trans-unit id="163">
+<source>Search</source>
+<target>Søk</target>
+</trans-unit>
+
+<trans-unit id="164">
+<source>Return</source>
+<target>Tilbake</target>
+</trans-unit>
+
+<trans-unit id="165">
+<source>Finish</source>
+<target>Fullfør</target>
+</trans-unit>
+
+<trans-unit id="166">
+<source>Your product</source>
+<target>Produktet</target>
+</trans-unit>
+
+<trans-unit id="167">
+<source>Your product added successfully.</source>
+<target>Produktet lagt til.</target>
+</trans-unit>
+
+<trans-unit id="168">
+<source>Our operators check your product within &lt;b&gt;4 work hours&lt;/b&gt; and make it active. So we will inform you by email.</source>
+<target>Våre operatører sjekke produktet innen &lt;b&gt;4 arbeidstimer&lt;/b&gt; og gjøre det aktivt. Så vi vil informere deg per e-post.</target>
+</trans-unit>
+
+<trans-unit id="169">
+<source>What are you going to do now?</source>
+<target>Hva skal du gjøre nå?</target>
+</trans-unit>
+
+<trans-unit id="170">
+<source>Product list</source>
+<target>Produkt liste</target>
+</trans-unit>
+
+<trans-unit id="171">
+<source>Insert </source>
+<target>Sett inn</target>
+</trans-unit>
+
+<trans-unit id="172">
+<source>Insert Product</source>
+<target>Sett inn produkt</target>
+</trans-unit>
+
+<trans-unit id="173">
+<source>Review</source>
+<target>Review</target>
+</trans-unit>
+
+<trans-unit id="174">
+<source>Advertising</source>
+<target>Annonsering</target>
+</trans-unit>
+
+<trans-unit id="175">
+<source>Delete</source>
+<target>Slett</target>
+</trans-unit>
+
+<trans-unit id="176">
+<source>Are you sure ?</source>
+<target>Er du sikker?</target>
+</trans-unit>
+
+<trans-unit id="177">
+<source>Title</source>
+<target>Tittel</target>
+</trans-unit>
+
+<trans-unit id="178">
+<source>Created</source>
+<target>Opprettet</target>
+</trans-unit>
+
+<trans-unit id="179">
+<source>Added</source>
+<target>Lagt til</target>
+</trans-unit>
+
+<trans-unit id="180">
+<source>User has been asking a question in your product.</source>
+<target>Bruker har vært stille et spørsmål i ditt produkt.</target>
+</trans-unit>
+
+<trans-unit id="181">
+<source>Thank you for your reply</source>
+<target>Takk for ditt svar</target>
+</trans-unit>
+
+<trans-unit id="182">
+<source> user write comment your replied product .</source>
+<target>brukeren skrive din kommentar svarte produktet.</target>
+</trans-unit>
+
+<trans-unit id="183">
+<source> product you have added  </source>
+<target>produkt du har lagt</target>
+</trans-unit>
+
+<trans-unit id="184">
+<source> user left a comment.</source>
+<target>brukeren igjen en kommentar.</target>
+</trans-unit>
+
+<trans-unit id="185">
+<source>Locations</source>
+<target>Steder</target>
+</trans-unit>
+
+<trans-unit id="186">
+<source>Compare</source>
+<target>Sammenlign</target>
+</trans-unit>
+
+<trans-unit id="187">
+<source>Position</source>
+<target>Posisjon</target>
+</trans-unit>
+
+<trans-unit id="188">
+<source>Company</source>
+<target>Firma</target>
+</trans-unit>
+
+<trans-unit id="189">
+<source>Salary</source>
+<target>Lønn</target>
+</trans-unit>
+
+<trans-unit id="190">
+<source>Location/Deadline</source>
+<target>Sted / Deadline</target>
+</trans-unit>
+
+<trans-unit id="191">
+<source>Ad title</source>
+<target>Ad tittelen</target>
+</trans-unit>
+
+<trans-unit id="192">
+<source>You can compare 5 products as maximum</source>
+<target>Du kan sammenligne 5 produkter som maksimal</target>
+</trans-unit>
+
+<trans-unit id="193">
+<source>+ Add </source>
+<target>+ Legg til</target>
+</trans-unit>
+
+<trans-unit id="194">
+<source>Compare products</source>
+<target>Sammenlign produkter</target>
+</trans-unit>
+
+<trans-unit id="195">
+<source>Add my basket</source>
+<target>Legg min kurv</target>
+</trans-unit>
+
+<trans-unit id="196">
+<source>Name</source>
+<target>Navn</target>
+</trans-unit>
+
+<trans-unit id="197">
+<source>Email</source>
+<target>E-post</target>
+</trans-unit>
+
+<trans-unit id="198">
+<source>Content</source>
+<target>Innhold</target>
+</trans-unit>
+
+<trans-unit id="199">
+<source>Country</source>
+<target>Land</target>
+</trans-unit>
+
+<trans-unit id="200">
+<source>Attributes</source>
+<target>Attributter</target>
+</trans-unit>
+
+<trans-unit id="201">
+<source>Price and size</source>
+<target>Pris og størrelse</target>
+</trans-unit>
+
+<trans-unit id="202">
+<source>min</source>
+<target>min</target>
+</trans-unit>
+
+<trans-unit id="203">
+<source>max</source>
+<target>max</target>
+</trans-unit>
+
+<trans-unit id="204">
+<source>Area</source>
+<target>Area</target>
+</trans-unit>
+
+<trans-unit id="205">
+<source>Square</source>
+<target>Square</target>
+</trans-unit>
+
+<trans-unit id="206">
+<source>Add comment</source>
+<target>Legg til kommentar</target>
+</trans-unit>
+
+<trans-unit id="207">
+<source>Answer a question</source>
+<target>Svare på et spørsmål</target>
+</trans-unit>
+
+<trans-unit id="208">
+<source>Insert your question.</source>
+<target>Sett inn ditt spørsmål.</target>
+</trans-unit>
+
+<trans-unit id="209">
+<source>Yozoa code</source>
+<target>Yozoa kode</target>
+</trans-unit>
+
+<trans-unit id="210">
+<source>Available</source>
+<target>Tilgjengelig</target>
+</trans-unit>
+
+<trans-unit id="211">
+<source>To supply</source>
+<target>Å levere</target>
+</trans-unit>
+
+<trans-unit id="212">
+<source>Shipping</source>
+<target>Shipping</target>
+</trans-unit>
+
+<trans-unit id="213">
+<source>No shipping</source>
+<target>Ingen shipping</target>
+</trans-unit>
+
+<trans-unit id="214">
+<source>Buy</source>
+<target>Kjøp</target>
+</trans-unit>
+
+<trans-unit id="215">
+<source>Employer</source>
+<target>Arbeidsgiver</target>
+</trans-unit>
+
+<trans-unit id="216">
+<source>Search here</source>
+<target>Søk her</target>
+</trans-unit>
+
+<trans-unit id="217">
+<source>Application via url</source>
+<target>Søknad via url</target>
+</trans-unit>
+
+<trans-unit id="218">
+<source>Apply now</source>
+<target>Søk nå</target>
+</trans-unit>
+
+<trans-unit id="219">
+<source>Other jobs</source>
+<target>Andre jobber</target>
+</trans-unit>
+
+<trans-unit id="220">
+<source>Deadline</source>
+<target>Deadline</target>
+</trans-unit>
+
+<trans-unit id="221">
+<source>Location</source>
+<target>Beliggenhet</target>
+</trans-unit>
+
+<trans-unit id="222">
+<source>Website</source>
+<target>Nettside</target>
+</trans-unit>
+
+<trans-unit id="223">
+<source>Company information</source>
+<target>Selskapsinformasjon</target>
+</trans-unit>
+
+<trans-unit id="224">
+<source>Contacts</source>
+<target>Kontakter</target>
+</trans-unit>
+
+<trans-unit id="225">
+<source>Provider</source>
+<target>Provider</target>
+</trans-unit>
+
+<trans-unit id="226">
+<source>Other real estates</source>
+<target>Andre eiendommer</target>
+</trans-unit>
+
+<trans-unit id="227">
+<source>Accommodation</source>
+<target>Overnatting</target>
+</trans-unit>
+
+<trans-unit id="228">
+<source>Start</source>
+<target>Start</target>
+</trans-unit>
+
+<trans-unit id="229">
+<source>Desired</source>
+<target>Ønsket</target>
+</trans-unit>
+
+<trans-unit id="230">
+<source>Address</source>
+<target>Adresse</target>
+</trans-unit>
+
+<trans-unit id="231">
+<source>Phone number</source>
+<target>Telefonnummer</target>
+</trans-unit>
+
+<trans-unit id="232">
+<source>Similar products</source>
+<target>Lignende produkter</target>
+</trans-unit>
+
+<trans-unit id="233">
+<source>New product</source>
+<target>Nytt produkt</target>
+</trans-unit>
+
+<trans-unit id="234">
+<source>New post from</source>
+<target>Nytt innlegg fra</target>
+</trans-unit>
+
+<trans-unit id="235">
+<source>Apply now for </source>
+<target>Søk nå for</target>
+</trans-unit>
+
+<trans-unit id="236">
+<source>My information</source>
+<target>Min informasjon</target>
+</trans-unit>
+
+<trans-unit id="237">
+<source>Remember me</source>
+<target>Husk meg</target>
+</trans-unit>
+
+<trans-unit id="238">
+<source>Profile information</source>
+<target>Profilinformasjon</target>
+</trans-unit>
+
+<trans-unit id="239">
+<source>User name</source>
+<target>Bruker navn</target>
+</trans-unit>
+
+<trans-unit id="240">
+<source>Full name</source>
+<target>Fullt navn</target>
+</trans-unit>
+
+<trans-unit id="241">
+<source>Company name</source>
+<target>Firmanavn</target>
+</trans-unit>
+
+<trans-unit id="242">
+<source>Edit profile</source>
+<target>Rediger profil</target>
+</trans-unit>
+</body>
+  </file>
+</xliff>

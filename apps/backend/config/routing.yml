@@ -1,0 +1,99 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+guestbook_edit:
+  url:   /guestbook/edit/:id
+  class: sfDoctrineRoute
+  options: { model: Guestbook, type: object }
+  param: { module: guestbook, action: edit }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
+guestbook_update:
+  url:   /guestbook/:id
+  class: sfDoctrineRoute
+  options: { model: Guestbook, type: object }
+  param: { module: guestbook, action: update }
+  requirements:
+    id: \d+
+    sf_method: [post]
+
+guestbook_delete:
+  url:     /guestbook/delete/:id
+  class:   sfDoctrineRoute
+  options: { model: Guestbook, type: object }
+  param:   { module: guestbook, action: delete }
+  requirements: { sf_method: delete }
+##################
+#  Help topic    #
+##################
+help_topic_edit:
+  url:   /help/topic/edit/:id
+  class: sfDoctrineRoute
+  options: { model: HelpTopic, type: object }
+  param: { module: help_topic, action: edit }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
+help_topic_update:
+  url:   /help/topic/update/:id
+  class: sfDoctrineRoute
+  options: { model: HelpTopic, type: object }
+  param: { module: help_topic, action: update }
+  requirements:
+    id: \d+
+    sf_method: [post]
+
+help_topic_delete:
+  url:     /help/topic/delete/:id
+  class:   sfDoctrineRoute
+  options: { model: HelpTopic, type: object }
+  param:   { module: help_topic, action: delete }
+  requirements: { sf_method: delete }
+
+
+##################
+#  Help category #
+##################
+
+
+help_category_edit:
+  url:   /help/category/edit/:id
+  class: sfDoctrineRoute
+  options: { model: HelpCategory, type: object }
+  param: { module: help_category, action: edit }
+  requirements:
+    id: \d+
+    sf_method: [get]
+
+help_category_update:
+  url:   /help/category/update/:id
+  class: sfDoctrineRoute
+  options: { model: HelpCategory, type: object }
+  param: { module: help_category, action: update }
+  requirements:
+    id: \d+
+    sf_method: [post]
+
+help_category_delete:
+  url:     /help/category/delete/:id
+  class:   sfDoctrineRoute
+  options: { model: HelpCategory, type: object }
+  param:   { module: help_category, action: delete }
+  requirements: { sf_method: delete }
+
+homepage:
+  url:   /
+  param: { module: user, action: login }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
